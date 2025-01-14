@@ -36,6 +36,7 @@ h1 {
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 28px;
+    margin-bottom: 30px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -59,6 +60,11 @@ input[type=number]::-webkit-outer-spin-button {
     max-width: 84px;
     color: var(--text-light);
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+#input-el:hover {
+    border-color: #ffffff9e;
 }
 
 #input-el:focus {
@@ -73,13 +79,13 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: var(--text-light);
     border: none;
     border-radius: var(--border-radius);
+    transition: all 0.3s ease-in-out;
 }
 
 #convert-btn:hover {
     background-color: transparent;
     border: 2px solid var(--text-light);
     color: var(--text-light);
-    transition: all 0.3s ease-in-out;
 }
 
 .bottom {
