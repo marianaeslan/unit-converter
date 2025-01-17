@@ -15,6 +15,7 @@ Convert between different units of measurement, such as length, volume and mass,
   - Weight (e.g., kilograms, pounds)
   - Volume (e.g., liters, gallons)
 - **Real-Time Conversion**: Instant results as you input values.
+- **Responsive on mobile**: Now available on small screens.
 
 ---
 
@@ -38,4 +39,3 @@ If you want to run the project locally:
 ## 🏗️ Future Enhancements
 	•	Add support for more units (e.g., temperature, distance).
 	•	Implement dark mode for better accessibility.
-	•	Responsiveness for different screen sizes
