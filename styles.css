@@ -161,6 +161,7 @@ p {
     }
     .result-wrap {
         max-width: 70%;
+        padding: 12px 24px;
 
     }
 }
