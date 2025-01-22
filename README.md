@@ -11,9 +11,11 @@ Convert between different units of measurement, such as length, volume and mass,
 
 - **Interactive Web Interface**: Intuitive design for easy usage.
 - **Multiple Categories**: Convert between units for:
-  - Length (e.g., meters, feet)
+  - Length (e.g., meters, feet, centimeters)
   - Weight (e.g., kilograms, pounds)
   - Volume (e.g., liters, gallons)
+  - Temperature (Fahrenheit, Celsius)
+  - Distance (Kilometers, Miles)
 - **Real-Time Conversion**: Instant results as you input values.
 - **Responsive on mobile**: Now available on small screens.
 
@@ -37,5 +39,6 @@ If you want to run the project locally:
    cd unit-converter
 
 ## 🏗️ Future Enhancements
-	•	Add support for more units (e.g., temperature, distance).
 	•	Implement dark mode for better accessibility.
+	•	Option to select which type of conversion you want.
+ 
