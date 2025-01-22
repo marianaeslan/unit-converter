@@ -10,6 +10,19 @@ const hiddenSpan = document.getElementById('hidden-span')
 
 converterBtn.addEventListener("click", function() {
     let baseValue = inputEl.value
+
+    if (baseValue < 0){
+        toFeet = 0
+        toMeters = 0
+        toM = 0
+        toCm = 0
+        toLiters = 0
+        toGallons = 0
+        toKg = 0
+        toPounds = 0
+        toKm = 0
+        toMiles = 0
+    }
     let toFeet = (baseValue * 3.281).toFixed(2)
     let toMeters = (baseValue / 3.281).toFixed(2)
     resultLength.textContent = `${baseValue} meters = ${toFeet} feet | ${baseValue} feet = ${toMeters} meters`
