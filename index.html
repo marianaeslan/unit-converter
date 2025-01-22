@@ -12,7 +12,7 @@
 <body>
     <section class="wrapper">
         <div class="top">
-            <h1>Metric/Imperial Unit Conversion</h1>
+            <h1>Unit Conversion</h1>
             <div class="inp-wrapper">
                 <input type="number" id="input-el" placeholder="0">
                 <span id="hidden-span" class="hidden-span"></span>
@@ -22,7 +22,15 @@
         <div class="bottom">
             <div class="result-wrap">
                 <h3>Length (Meter/Feet)</h3>
-                <p id="len-result"></p>
+                <div class="text-wrap">
+                    <p id="len-result"></p>
+                </div>
+            </div>
+            <div class="result-wrap">
+                <h3>Length (Meter/Cm)</h3>
+                <div class="text-wrap">
+                    <p id="l-result"></p>
+                </div>
             </div>
             <div class="result-wrap">
                 <h3>Volume (Liters/Gallons)</h3>
@@ -31,6 +39,14 @@
             <div class="result-wrap">
                 <h3>Mass (Kilograms/Pounds)</h3>
                 <p id="mass-result"></p>
+            </div>
+            <div class="result-wrap">
+                <h3>Temperature (Celsius/Fahrenheit)</h3>
+                <p id="temp-result"></p>
+            </div>
+            <div class="result-wrap">
+                <h3>Distance (Km/Miles)</h3>
+                <p id="dist-result"></p>
             </div>
         </div>
     </section>
