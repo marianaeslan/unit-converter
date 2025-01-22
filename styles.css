@@ -149,6 +149,11 @@ p {
 }
 
 @media (max-width: 430px) {
+
+    .top {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
     h1{
         font-size: 32px;
     }
