@@ -185,13 +185,8 @@ p {
     color: #353535;
     font-size: 14px;
 }
-@media (max-width: 800px) {
-
-}
-
 
 @media (max-width: 430px) {
-
     .top {
         padding-top: 24px;
         padding-bottom: 32px;
@@ -201,6 +196,10 @@ p {
         font-size: 32px;
     }
 
+    #convert-btn{
+        background-color: var(--secondary-color);
+        color: var(--text-dark);
+    }
 
     h3 {
         font-size: 18px;
@@ -212,6 +211,5 @@ p {
     .result-wrap {
         max-width: 70%;
         padding: 12px 24px;
-
     }
 }
