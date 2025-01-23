@@ -13,6 +13,18 @@
     <section class="wrapper">
         <div class="top">
             <h1>Unit Conversion</h1>
+            <div class="options">
+                <select id="conversion-type">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="length01">Meter → Feet</option>
+                    <option value="length02">Meter → Cm</option>
+                    <option value="volume">Liters → Gallons</option>
+                    <option value="mass">Kg → Pounds</option>
+                    <option value="temp">Celsius → Fahrenheit</option>
+                    <option value="distance">Km → Miles</option>
+                </select>
+            </div>
+
             <div class="inp-wrapper">
                 <input type="number" id="input-el" placeholder="0">
                 <span id="hidden-span" class="hidden-span"></span>
