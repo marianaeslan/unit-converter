@@ -15,7 +15,8 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
-    background-color: var(--secondary-color);
+    background-color: var(--color-bg);
+    color: var(--color-fg);
 }
 
 .wrapper {

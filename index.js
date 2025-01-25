@@ -1,13 +1,13 @@
 let converterBtn = document.getElementById("convert-btn");
 const inputEl = document.getElementById("input-el");
-const conversionType = document.getElementById("conversion-type"); // Novo select
+const conversionType = document.getElementById("conversion-type"); 
 let resultLength = document.getElementById("len-result");
 let resultVol = document.getElementById("vol-result");
 let resultMass = document.getElementById("mass-result");
 let resultTemp = document.getElementById("temp-result");
 let resultDist = document.getElementById("dist-result");
 let resultL = document.getElementById("l-result");
-const hiddenSpan = document.getElementById('hidden-span')
+const hiddenSpan = document.getElementById('hidden-span');
 
 
 converterBtn.addEventListener("click", function () {
