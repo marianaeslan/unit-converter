@@ -39,9 +39,5 @@ If you want to run the project locally:
    git clone https://github.com/marianaeslan/unit-converter.git
    cd unit-converter
 
-## 🏗️ Future Enhancements
-~~Work on Responsiveness~~ \
-~~Add more options of conversions~~ \
-~~Option to select which type of conversion you want.~~ \
-	•	Implement dark mode for better accessibility.
+
  
