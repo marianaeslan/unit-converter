@@ -5,6 +5,9 @@ Convert between different units of measurement, such as length, volume and mass,
 
 🚀 **Live Demo**: [Unit Converter](https://thriving-alfajores-141420.netlify.app/)  
 
+![Unit Converter Preview](https://github.com/marianaeslan/unit-converter/blob/main/unit.png?raw=true)
+
+
 ---
 
 ## 🎨 Features
@@ -37,7 +40,12 @@ If you want to run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/marianaeslan/unit-converter.git
+2. Change to the project repository
+   ```bash
    cd unit-converter
+3.	Open the file index.html at the browser
+4.	Start to convert the units!
+
 
 
  
